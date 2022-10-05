@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./img/plan-page.jpg);
+    color: #fff;
+    width: 1180px;
+    font-size: 16px;
+    margin: auto;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+    text-align: center;
+}
+
+
+section > article {
+    border: 5px solid #424242;
+    line-height: 20px;
+    background-color: #262626;
+    width: 23%;
+    margin: 80px 20px 0 20px;
+    color: #a1a1a1;
+    padding: 10px;
+}
+
+section > article > h1{
+    color: white;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+.price{
+    font-size: 3em;
+    color: #27dcc4;
+    padding: 40px;
+    font-weight: 800;
+}
+
+section > article > ul {
+    list-style: none;
+}
+
+.btn{
+    background-color: #27dcc4;
+    padding: 12px 35px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(177, 177, 177);
+}
